@@ -4,8 +4,9 @@ from discord import app_commands
 from moviepy.editor import *
 
 #INSERT THE BOT TOKEN HERE
-bot_tk = 'MTA2NDc1MDQzNzkzMDExMTAxNw.GT9g6w.oEr8O0zqFepUedEuDf1gBw3Jn_sKwYkIV5IKsU'
-guild_id = 1064743637205921832
+bot_tk = 'put your token here'
+guild_id = None #-> PUT YOUR GUILD ID HERE
+
 #STARTING THE BOT
 class MyClient(discord.Client):
     def __init__(self):
